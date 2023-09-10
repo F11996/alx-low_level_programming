@@ -1,2 +1,2 @@
-#!/pin/bash
-gcc -c $CFILE
+#!/bin/bashi
+gcc -c CFILE
