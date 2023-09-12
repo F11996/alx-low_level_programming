@@ -1,2 +1,2 @@
 #!/bin/bashi 
-gcc -E $CFILE -o c 
+gcc -c $CFILE -o `echo $CFILE .| cut -d. -f1` .o 
